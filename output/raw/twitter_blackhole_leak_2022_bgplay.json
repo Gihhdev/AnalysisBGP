@@ -1,0 +1,10 @@
+{
+  "resource": "45.89.72.0/22",
+  "query_starttime": "2022-02-25T00:00:00",
+  "query_endtime": "2022-03-03T00:00:00",
+  "initial_state": [],
+  "events": [],
+  "nodes": [],
+  "sources": [],
+  "targets": []
+}

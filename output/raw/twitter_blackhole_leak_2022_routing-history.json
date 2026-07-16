@@ -1,0 +1,92 @@
+{
+  "by_origin": [
+    {
+      "origin": "197726",
+      "prefixes": [
+        {
+          "prefix": "45.89.72.0/22",
+          "timelines": [
+            {
+              "starttime": "2022-02-18T00:00:00",
+              "endtime": "2022-02-18T07:59:59",
+              "full_peers_seeing": 341
+            },
+            {
+              "starttime": "2022-02-18T08:00:00",
+              "endtime": "2022-02-18T23:59:59",
+              "full_peers_seeing": 344.0
+            },
+            {
+              "starttime": "2022-02-19T00:00:00",
+              "endtime": "2022-02-20T23:59:59",
+              "full_peers_seeing": 342.0
+            },
+            {
+              "starttime": "2022-02-21T00:00:00",
+              "endtime": "2022-02-23T07:59:59",
+              "full_peers_seeing": 345.0
+            },
+            {
+              "starttime": "2022-02-23T08:00:00",
+              "endtime": "2022-02-23T23:59:59",
+              "full_peers_seeing": 343.0
+            },
+            {
+              "starttime": "2022-02-24T00:00:00",
+              "endtime": "2022-02-25T23:59:59",
+              "full_peers_seeing": 341.0
+            },
+            {
+              "starttime": "2022-02-26T00:00:00",
+              "endtime": "2022-02-28T15:59:59",
+              "full_peers_seeing": 344.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "origin": "210512",
+      "prefixes": [
+        {
+          "prefix": "45.89.72.0/22",
+          "timelines": [
+            {
+              "starttime": "2022-03-01T00:00:00",
+              "endtime": "2022-03-01T23:59:59",
+              "full_peers_seeing": 346.0
+            },
+            {
+              "starttime": "2022-03-02T00:00:00",
+              "endtime": "2022-03-02T07:59:59",
+              "full_peers_seeing": 343
+            },
+            {
+              "starttime": "2022-03-02T16:00:00",
+              "endtime": "2022-03-09T07:59:59",
+              "full_peers_seeing": 345.0
+            },
+            {
+              "starttime": "2022-03-09T08:00:00",
+              "endtime": "2022-03-09T15:59:59",
+              "full_peers_seeing": 347
+            },
+            {
+              "starttime": "2022-03-09T16:00:00",
+              "endtime": "2022-03-10T07:59:59",
+              "full_peers_seeing": 345.0
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "resource": "45.89.72.0/22",
+  "query_starttime": "2022-02-18T00:00:00",
+  "query_endtime": "2022-03-10T00:00:00",
+  "time_granularity": 28800,
+  "latest_max_ff_peers": {
+    "v4": 335,
+    "v6": 376
+  }
+}

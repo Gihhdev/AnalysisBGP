@@ -1,0 +1,7 @@
+{
+  "resource": "210512",
+  "prefix": "45.89.72.0/22",
+  "validating_roas": [],
+  "status": "unknown",
+  "validator": "routinator"
+}

@@ -1,0 +1,10 @@
+{
+  "resource": "17.70.96.0/19",
+  "query_starttime": "2022-07-23T00:00:00",
+  "query_endtime": "2022-07-29T00:00:00",
+  "initial_state": [],
+  "events": [],
+  "nodes": [],
+  "sources": [],
+  "targets": []
+}

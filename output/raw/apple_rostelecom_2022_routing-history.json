@@ -1,0 +1,182 @@
+{
+  "by_origin": [
+    {
+      "origin": "714",
+      "prefixes": [
+        {
+          "prefix": "17.0.0.0/8",
+          "timelines": [
+            {
+              "starttime": "2022-07-21T00:00:00",
+              "endtime": "2022-07-21T15:59:59",
+              "full_peers_seeing": 353.0
+            },
+            {
+              "starttime": "2022-07-21T16:00:00",
+              "endtime": "2022-07-22T23:59:59",
+              "full_peers_seeing": 356.0
+            },
+            {
+              "starttime": "2022-07-23T00:00:00",
+              "endtime": "2022-07-25T15:59:59",
+              "full_peers_seeing": 358.0
+            },
+            {
+              "starttime": "2022-07-25T16:00:00",
+              "endtime": "2022-07-26T23:59:59",
+              "full_peers_seeing": 356.0
+            },
+            {
+              "starttime": "2022-07-27T00:00:00",
+              "endtime": "2022-07-27T15:59:59",
+              "full_peers_seeing": 353.0
+            },
+            {
+              "starttime": "2022-07-27T16:00:00",
+              "endtime": "2022-07-27T23:59:59",
+              "full_peers_seeing": 351
+            },
+            {
+              "starttime": "2022-07-28T00:00:00",
+              "endtime": "2022-07-28T15:59:59",
+              "full_peers_seeing": 354.0
+            },
+            {
+              "starttime": "2022-07-28T16:00:00",
+              "endtime": "2022-07-31T07:59:59",
+              "full_peers_seeing": 364.0
+            }
+          ]
+        },
+        {
+          "prefix": "17.0.0.0/9",
+          "timelines": [
+            {
+              "starttime": "2022-07-21T00:00:00",
+              "endtime": "2022-07-21T15:59:59",
+              "full_peers_seeing": 353.0
+            },
+            {
+              "starttime": "2022-07-21T16:00:00",
+              "endtime": "2022-07-22T23:59:59",
+              "full_peers_seeing": 356.0
+            },
+            {
+              "starttime": "2022-07-23T00:00:00",
+              "endtime": "2022-07-25T15:59:59",
+              "full_peers_seeing": 358.0
+            },
+            {
+              "starttime": "2022-07-25T16:00:00",
+              "endtime": "2022-07-26T23:59:59",
+              "full_peers_seeing": 356.0
+            },
+            {
+              "starttime": "2022-07-27T00:00:00",
+              "endtime": "2022-07-27T15:59:59",
+              "full_peers_seeing": 353.0
+            },
+            {
+              "starttime": "2022-07-27T16:00:00",
+              "endtime": "2022-07-27T23:59:59",
+              "full_peers_seeing": 351
+            },
+            {
+              "starttime": "2022-07-28T00:00:00",
+              "endtime": "2022-07-28T15:59:59",
+              "full_peers_seeing": 354.0
+            },
+            {
+              "starttime": "2022-07-28T16:00:00",
+              "endtime": "2022-07-31T07:59:59",
+              "full_peers_seeing": 364.0
+            }
+          ]
+        },
+        {
+          "prefix": "17.70.96.0/21",
+          "timelines": [
+            {
+              "starttime": "2022-07-27T08:00:00",
+              "endtime": "2022-07-27T23:59:59",
+              "full_peers_seeing": 351.0
+            },
+            {
+              "starttime": "2022-07-28T00:00:00",
+              "endtime": "2022-07-28T07:59:59",
+              "full_peers_seeing": 353
+            }
+          ]
+        },
+        {
+          "prefix": "17.70.104.0/21",
+          "timelines": [
+            {
+              "starttime": "2022-07-27T08:00:00",
+              "endtime": "2022-07-27T23:59:59",
+              "full_peers_seeing": 351.0
+            },
+            {
+              "starttime": "2022-07-28T00:00:00",
+              "endtime": "2022-07-28T07:59:59",
+              "full_peers_seeing": 353
+            }
+          ]
+        },
+        {
+          "prefix": "17.70.112.0/21",
+          "timelines": [
+            {
+              "starttime": "2022-07-27T08:00:00",
+              "endtime": "2022-07-27T23:59:59",
+              "full_peers_seeing": 351.0
+            },
+            {
+              "starttime": "2022-07-28T00:00:00",
+              "endtime": "2022-07-28T07:59:59",
+              "full_peers_seeing": 353
+            }
+          ]
+        },
+        {
+          "prefix": "17.70.120.0/21",
+          "timelines": [
+            {
+              "starttime": "2022-07-27T08:00:00",
+              "endtime": "2022-07-27T23:59:59",
+              "full_peers_seeing": 351.0
+            },
+            {
+              "starttime": "2022-07-28T00:00:00",
+              "endtime": "2022-07-28T07:59:59",
+              "full_peers_seeing": 353
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "origin": "12389",
+      "prefixes": [
+        {
+          "prefix": "17.70.96.0/19",
+          "timelines": [
+            {
+              "starttime": "2022-07-27T00:00:00",
+              "endtime": "2022-07-27T15:59:59",
+              "full_peers_seeing": 352.0
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "resource": "17.70.96.0/19",
+  "query_starttime": "2022-07-21T00:00:00",
+  "query_endtime": "2022-07-31T00:00:00",
+  "time_granularity": 28800,
+  "latest_max_ff_peers": {
+    "v4": 335,
+    "v6": 376
+  }
+}

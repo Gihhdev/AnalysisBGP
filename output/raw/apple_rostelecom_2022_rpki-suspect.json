@@ -1,0 +1,7 @@
+{
+  "resource": "12389",
+  "prefix": "17.70.96.0/19",
+  "validating_roas": [],
+  "status": "unknown",
+  "validator": "routinator"
+}
