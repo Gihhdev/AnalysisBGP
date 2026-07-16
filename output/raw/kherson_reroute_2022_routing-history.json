@@ -122,6 +122,6 @@
   "time_granularity": 28800,
   "latest_max_ff_peers": {
     "v4": 335,
-    "v6": 376
+    "v6": 375
   }
 }

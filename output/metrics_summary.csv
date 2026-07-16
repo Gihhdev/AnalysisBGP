@@ -1,0 +1,4 @@
+incident,date,source,n_distinct_origins,origins,n_origin_transitions,rpki_victim_status,rpki_suspect_status
+twitter_blackhole_leak_2022,2022-02-28,MANRS (2022) - 'Did Ukraine suffer a BGP hijack...',2,197726;210512,1,unknown,
+apple_rostelecom_2022,2022-07-26,MANRS / Reuters / The Register (jul/2022),2,12389;714,2,unknown,unknown
+kherson_reroute_2022,2022-05-02,Reuters (2022-05-02) - 'Russia reroutes internet traffic in occupied Ukraine',1,47598,0,unknown,unknown

@@ -50,23 +50,28 @@ def collect_incident(incident: dict, summary_rows: list):
     print(f"[{name}] janela {start} -> {end} | prefixo {prefix}")
 
     # 1) routing-history: quem originou o prefixo ao longo da janela
+# 1) routing-history: quem originou o prefixo ao longo da janela
     try:
         rh = ripe.routing_history(prefix, start, end)
         _save_raw(name, "routing-history", rh)
-        # CÓDIGO CORRIGIDO
-        dados = rh.get("data", {})
-        for origin in dados.get("by_origin", []):
+
+        # CORREÇÃO: rh já é o conteúdo de "data" (o client desembrulha isso),
+        # então não usamos rh.get("data", {}) -- usamos rh direto.
+        for origin in rh.get("by_origin", []):
             asn = origin.get("origin")
-            for period in origin.get("timelines", []):
-                summary_rows.append({
-                    "incident": name,
-                    "prefix": prefix,
-                    "origin_asn": asn,
-                    "starttime": period.get("starttime"),
-                    "endtime": period.get("endtime"),
-                    "expected_victim_asn": incident.get("victim_asn"),
-                    "expected_suspect_asn": incident.get("suspect_asn"),
-                })
+            # CORREÇÃO: timelines fica dentro de "prefixes", não direto em "origin"
+            for pref_entry in origin.get("prefixes", []):
+                pfx = pref_entry.get("prefix", prefix)
+                for period in pref_entry.get("timelines", []):
+                    summary_rows.append({
+                        "incident": name,
+                        "prefix": pfx,
+                        "origin_asn": asn,
+                        "starttime": period.get("starttime"),
+                        "endtime": period.get("endtime"),
+                        "expected_victim_asn": incident.get("victim_asn"),
+                        "expected_suspect_asn": incident.get("suspect_asn"),
+                    })
     except Exception as e:  # noqa: BLE001
         print(f"  ERRO routing-history: {e}")
 
